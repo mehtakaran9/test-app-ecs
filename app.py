@@ -27,7 +27,7 @@ def template():
     return render_template('eg1.html')
 
 @app.route('/ucdavis')
-def template():
+def davis():
     return redirect('http://www.ucdavis.edu', code = 302)
 
 if __name__ == "__main__":
