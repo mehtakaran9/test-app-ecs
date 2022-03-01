@@ -1,6 +1,6 @@
 FROM alpine:latest
 RUN apk add python3 git py3-pip
-RUN git clone --depth=1 https://github.com/mehtakaran9/simple-python-app.git /tmp
+RUN git clone https://github.com/mehtakaran9/simple-python-app.git /tmp
 COPY . /app
 WORKDIR /tmp
 RUN mv /tmp/pages /app/templates
