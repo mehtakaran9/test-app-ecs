@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from flask import Flask
 import os
 from flask import render_template, redirect
